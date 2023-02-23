@@ -244,7 +244,7 @@ background-size: cover
 
   * \&gt; 100,000 listings in a year&lt;sup&gt;1&lt;/sup&gt;
   * 20% of surveyed households hosted in past year&lt;sup&gt;2&lt;/sup&gt;
-  * \&gt;=% 10% of dwellings are Airbnbs in some districts&lt;sup&gt;3&lt;/sup&gt;
+  * \&gt;= 10% of dwellings are Airbnbs in some districts&lt;sup&gt;3&lt;/sup&gt;
 
 .footnote[
 [1] Temperton 2020; [2] MHCLH 2019; [3] Kommenda et al., 2020
@@ -385,9 +385,11 @@ count: false
 
 ![](img/map-1.png)
 
+
 ---
 
 ![](img/pop-map-1.png)
+
 
 ---
 class: inverse
@@ -415,7 +417,7 @@ background-size: cover
 
 --
 
-.centernote[*If concerned only with A → C, this simplifies*]
+.centernote[*If concerned only with A → C, we can ignore mediators*]
 
 ---
 # Simplified Model
@@ -437,7 +439,7 @@ background-size: cover
 
 --
 
-.centernote[*This is a type of cross-lagged panel model*]
+.centernote[*This is a cross-lagged panel model*]
 
 ---
 # Units of Analysis
@@ -548,10 +550,18 @@ Respecify model with disaggregated measures:
 # Summary
 
 
-Airbnb activity predicts instrumental crimes
+Per quarter, each additional is Airbnb associated with...
 
-* Consistent with routine activity
-* Less consistent with social disorganization
+* 0.03 robberies
+* 0.04 burglaries
+* 0.16 thefts
+* 0.06 violent offenses
+
+--
+
+Airbnb activity mainly predicts instrumental crimes
+
+* More consistent with routine activity than social disorganization
 
 --
 
@@ -678,7 +688,7 @@ Given our models, how should we aggregate data?
 
 &amp;zwj;Space:
 
-* Some theoretical debate over social control spatial scale
+* Some theoretical debate over spatial scale of social control
 * Many respondents needed for reliable measurement
 
 --
@@ -818,12 +828,13 @@ background-size: cover
 * Collective efficacy less time stable than expected
 
    * Low indicator variation
-      * "Very likely" is modal response in 8/9 indicators
    * May not be tapping social control capacity well
 
 --
 
-* Need a ML-SEM Poisson estimator
+* Police-reported crime
+
+   * Local authorities share ASB responsibilities
 
 ---
 # Implications
